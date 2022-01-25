@@ -11,7 +11,8 @@ On top of all of this, are user-friendly APIs such as [Keras](https://keras.io/
 
 ### **Project Description**
 
-As an introductory project for myself, I have tried my hand on Binary-Image-Classification of Cats vs Dogs dataset, But for a higher understanding of Keras and image classification I chose to use a pre-trained image classifier that comes with Keras, and retrain it on a Food-101 dataset . In the dataset there are 101 types of Dishes from different cuisine. Each Dish has 1000 image of it self. `Refer the meta folder to get to know the types of Dishes`.
+As an introductory project for myself, I have tried my hand on Binary-Image-Classification of Cats vs Dogs dataset, But for a higher understanding of Keras and image classification I chose to use a pre-trained image classifier that comes with Keras, and retrain it on a Food-101 dataset . In the dataset there are 101 types of Dishes from different cuisine. Each Dish has 1000 image of it self. `Refer the meta folder to get to know the types of Dishes`.<br>
+**To get enough computational power the input classes have been reduced to 8 classes with each 1000 images** 
 
 ### Objective
 
@@ -24,8 +25,8 @@ The main objective of this project is to get deeper understanding of Keras and  
 
 ### **Results**
 
-After tuning a pre-trained Google **MobileNetv2** model, I was able to achieve about 40.08% **Top-1 Accuracy** on the test set with 101 different Food Items
+After tuning a pre-trained Google **MobileNetv2** model, I was able to achieve about **80.18% Top-1 Accuracy** on the test set with 8 different Food Items
 
-After tuning a pre-trained Google [**InceptionV3**](https://keras.io/applications/#inceptionv3) model, I was able to achieve about —————— **Top-1 Accuracy** on the test set with 101 different Food Items
+After tuning a pre-trained Google [**InceptionV3**](https://keras.io/applications/#inceptionv3) model, I was able to achieve about **—————— Top-1 Accuracy** on the test set with 101 different Food Items
 
 ## The Model and Project both are not yet fully optimised and the work is in Progress. Surely open to help & Ideas !
