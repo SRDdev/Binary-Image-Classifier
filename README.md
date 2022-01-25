@@ -27,6 +27,6 @@ The main objective of this project is to get deeper understanding of Keras and  
 
 After tuning a pre-trained Google **MobileNetv2** model, I was able to achieve about **80.18% Top-1 Accuracy** on the test set with 8 different Food Items
 
-After tuning a pre-trained Google [**InceptionV3**](https://keras.io/applications/#inceptionv3) model, I was able to achieve about **—————— Top-1 Accuracy** on the test set with 101 different Food Items
+After tuning a pre-trained Google [**InceptionV3**](https://keras.io/applications/#inceptionv3) model, I was able to achieve about **78.23% Top-1 Accuracy** on the test set with 101 different Food Items
 
 ## The Model and Project both are not yet fully optimised and the work is in Progress. Surely open to help & Ideas !
