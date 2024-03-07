@@ -1,6 +1,4 @@
 # Food Classification
-## **Introduction**
-
 Convolutional Neural Networks (CNN), a technique within the broader Deep Learning field, have been a revolutionary force in Computer Vision applications, especially in the past half-decade or so. One main use-case is that of image classification, e.g. determining whether a picture is that of a dog or cat.
 <br><br><br><image src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs40537-021-00444-8/MediaObjects/40537_2021_444_Fig7_HTML.png" style="width:100%"><br>
 You don't have to limit yourself to a binary classifier of course; CNNs can easily scale to thousands of different classes, as seen in the well-known ImageNet dataset of 1000 classes, used to benchmark computer vision algorithm performance.
@@ -29,4 +27,9 @@ After tuning a pre-trained Google **MobileNetv2** model, I was able to achieve
 
 After tuning a pre-trained Google [**InceptionV3**](https://keras.io/applications/#inceptionv3) model, I was able to achieve about **78.23% Top-1 Accuracy** on the test set with 101 different Food Items
 
-## The Model and Project both are not yet fully optimised and the work is in Progress. Surely open to help & Ideas !
+```
+Note: The Model and Project both are not yet fully optimised and the work is in Progress. Surely open to help & Ideas !
+```
+
+## **Aknoledgement**
+This is a direct implementation from keras examples.
